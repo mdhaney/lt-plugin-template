@@ -1,0 +1,5 @@
+{:name "{{name}}"
+ :author ""
+ :source ""
+ :desc ""
+ :behaviors "{{sanitized}}.behaviors"}

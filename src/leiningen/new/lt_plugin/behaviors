@@ -1,0 +1,2 @@
+{:+ {:app [(:lt.objs.plugins/load-js "{{sanitized}}_compiled.js" true)]
+     :{{name}}.hello [:lt.plugins.{{sanitized}}/on-close-destroy]}}
