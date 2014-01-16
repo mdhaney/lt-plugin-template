@@ -1,4 +1,4 @@
-(ns lt.plugins.{{sanitized}}
+(ns lt.plugins.{{name}}
   (:require [lt.object :as object]
             [lt.objs.tabs :as tabs]
             [lt.objs.command :as cmd])
