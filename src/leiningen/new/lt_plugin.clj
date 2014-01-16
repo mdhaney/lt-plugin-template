@@ -14,4 +14,5 @@
              ["src/lt/plugins/{{sanitized}}.cljs" (render "plug.cljs" data)]
              ["{{sanitized}}.behaviors" (render "behaviors" data)]
              ["project.clj" (render "project" data)]
-             ["plugin.edn" (render "edn" data)])))
+             ["plugin.edn" (render "edn" data)]
+             [".gitignore" (render "gitignore" data)])))
