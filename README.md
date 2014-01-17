@@ -8,12 +8,6 @@ From your LightTable plugins folder, run:
 
 `lein new lt-plugin myplugin`
 
-NOTE - this is not on Clojars yet, so until then, you need to clone this repo and run the command above from
-this projects directory.  The generated plugin project will be created in a subfolder ('myplugin' in the example above)
-which you can then move to your LightTable plugin directory.
-
-This is only temporary - once more testing is done, I will publish the plugin to clojars so it will "just work".
-
 ## Building
 
 * Add the `myplugin` folder to LightTable and open the `myplugin.cljs` file.
