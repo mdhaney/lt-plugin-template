@@ -2,6 +2,10 @@
 
 A Leiningen template to generate LightTable plugin projects.
 
+## Quick Start
+
+[Light Table plugin development quick start](http://youtu.be/j91Li9kL0t8)
+
 ## Usage
 
 From your LightTable plugins folder, run:
