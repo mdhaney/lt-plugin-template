@@ -1,0 +1,10 @@
+{
+  "name": "{{sanitized}}",
+  "author": "",
+  "version": "0.0.1",
+  "source": "",
+  "desc": "",
+  "dependencies": {
+  },
+  "behaviors": "{{sanitized}}.behaviors"
+}

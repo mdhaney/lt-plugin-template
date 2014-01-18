@@ -5,14 +5,17 @@
 (def render (renderer "lt-plugin"))
 
 (defn lt-plugin
-  "FIXME: write documentation"
-  [name]
+  "Generates a Light Table plugin skeleton project"
+  [name & args]
   (let [data {:name name
-              :sanitized (name-to-path name)}]
-    (main/info "Generating fresh 'lein new' lt-plugin project.")
+              :sanitized (name-to-path name)}
+        json? (and args (= "-j" (subs (first args) 0 2)))
+        desc (if json? ["plugin.json" (render "json" data)]
+                       ["plugin.edn" (render "edn" data)])]
+    (main/info (str "Generating Light Table plugin '" name "'"))
     (->files data
+             desc
              ["src/lt/plugins/{{sanitized}}.cljs" (render "plug.cljs" data)]
              ["{{sanitized}}.behaviors" (render "behaviors" data)]
              ["project.clj" (render "project" data)]
-             ["plugin.edn" (render "edn" data)]
              [".gitignore" (render "gitignore" data)])))
