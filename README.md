@@ -12,6 +12,9 @@ From your LightTable plugins folder, run:
 
 `lein new lt-plugin myplugin`
 
+Options:
+`-j` - generate plugin.json instead of plugin.edn
+
 ## Building
 
 * Add the `myplugin` folder to LightTable and open the `myplugin.cljs` file.
