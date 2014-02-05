@@ -17,5 +17,6 @@
              desc
              ["src/lt/plugins/{{sanitized}}.cljs" (render "plug.cljs" data)]
              ["{{sanitized}}.behaviors" (render "behaviors" data)]
+             ["{{sanitized}}_compiled.js" ""]
              ["project.clj" (render "project" data)]
              [".gitignore" (render "gitignore" data)])))
