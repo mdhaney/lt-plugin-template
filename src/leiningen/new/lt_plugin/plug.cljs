@@ -9,6 +9,7 @@
 
 (object/object* ::{{name}}.hello
                 :tags [:{{name}}.hello]
+                :behaviors [::on-close-destroy]
                 :name "{{name}}"
                 :init (fn [this]
                         (hello-panel this)))
