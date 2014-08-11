@@ -1,4 +1,4 @@
-(defproject lt-plugin/lein-template "0.3.0"
+(defproject lt-plugin/lein-template "0.4.0"
   :description "LightTable Plugin Lein Template"
   :url "http://github.com/mdhaney/lt-plugin-template"
   :license {:name "Eclipse Public License"
