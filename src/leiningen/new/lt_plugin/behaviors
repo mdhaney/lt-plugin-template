@@ -1,4 +1,4 @@
 [
  [:app :lt.objs.plugins/load-js "{{sanitized}}_compiled.js"]
- [:myplugin.hello :lt.plugins.{{name}}/on-close-destroy]
+ [:{{name}}.hello :lt.plugins.{{name}}/on-close-destroy]
  ]
