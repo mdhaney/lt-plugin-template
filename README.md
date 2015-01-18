@@ -8,7 +8,7 @@ A Leiningen template to generate LightTable plugin projects.
 
 ## Usage
 
-From your LightTable plugins folder, run:
+From [your LightTable plugins folder](http://docs.lighttable.com/#plugins-directory), run:
 
 `lein new lt-plugin myplugin`
 
