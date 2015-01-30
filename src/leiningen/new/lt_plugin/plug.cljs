@@ -1,7 +1,16 @@
 (ns lt.plugins.{{name}}
   (:require [lt.object :as object]
             [lt.objs.tabs :as tabs]
-            [lt.objs.command :as cmd])
+            [lt.objs.command :as cmd]
+            [lt.objs.files :as files]
+            [lt.objs.document :as doc]
+            [lt.objs.editor :as editor]
+            [lt.objs.plugins :as plugins]
+            [lt.objs.platform :as platform]
+            [lt.objs.sidebar.command :as scmd]
+            [lt.objs.editor.pool :as pool]
+            [clojure.string :as string]
+            [crate.binding :as bindings])
   (:require-macros [lt.macros :refer [defui behavior]]))
 
 (defui hello-panel [this]

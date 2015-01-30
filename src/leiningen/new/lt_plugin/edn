@@ -1,6 +1,6 @@
 {:name "{{sanitized}}"
  :version "0.1.0"
- :author ""
- :source ""
- :desc ""
+ :author "Rob Jentzema"
+ :source "https://github.com/clojens/"
+ :desc "(EXPERIMENTAL) Light Table plugin for .... <todo>"
  :behaviors "{{sanitized}}.behaviors"}
