@@ -1,6 +1,7 @@
 (ns leiningen.new.lt-plugin
   (:require [leiningen.new.templates :refer [renderer name-to-path ->files]]
-            [leiningen.core.main :as main]))
+            [leiningen.core.main :as main]
+            [clojure.string :refer [capitalize]]))
 
 (def render (renderer "lt-plugin"))
 
@@ -8,6 +9,7 @@
   "Generates a Light Table plugin skeleton project"
   [name & args]
   (let [data {:name name
+              :title (capitalize name)
               :sanitized (name-to-path name)}
         json? (and args (= "-j" (subs (first args) 0 2)))
         desc (if json? ["plugin.json" (render "json" data)]

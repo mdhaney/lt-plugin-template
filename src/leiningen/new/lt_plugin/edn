@@ -1,6 +1,6 @@
 {:name "{{sanitized}}"
- :version "0.0.1"
- :author ""
- :source ""
- :desc ""
+ :version "0.1.0"
+ :author "Rob Jentzema"
+ :source "https://github.com/clojens/lt-{{sanitized}}"
+ :desc "{{title}} Light Table IDE plugin designed to <???>"
  :behaviors "{{sanitized}}.behaviors"}
